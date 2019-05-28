@@ -15,6 +15,8 @@ Primero debera instalar Laravel 5.5 o la versión que usted desee usar [document
 
 El archivo [appcache](https://github.com/chaquen/LaravelOffline/blob/master/public/appcache), ubicado en la carpeta public, es el encargado de registrar los archivos que estaran directamenete relacionados con la funcionalidad offline, para aprender mas de este tema lo invito a leer el siguiente [artículo](https://www.html5rocks.com/en/tutorials/appcache/beginner/), ademas allí encontrara una excelente ruta de conocimiento para implementar appcache.
 
+Existen dos archivos ubicados también en la carpeta [public/js](https://github.com/chaquen/LaravelOffline/tree/master/public/js), llamados offline.js y logica.js, el primero tiene como finalidad verificar y registrar las acciones de la aplicación cuando esta en modo offline, y el segundo tiene toda la lógica de la aplicación, la cual tiene como fin sumar dos números y registrar dichos números en una base de datos, en caso de que se pierda la conexión, se almacenaran dichos datos, en el navegador usando [LocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)   
+
 La tecnologia de acceso offline es completamente manejada por el cliente por lo que no es completamente necesario instalar Laravel, ya que puede ser usado con cualquier otro framework o lenguaje de servidor,e ste proyecto es netamente una prueba y no tiene fin alguno.   
 
 
