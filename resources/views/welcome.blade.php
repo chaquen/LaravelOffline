@@ -4,8 +4,9 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>{{config('app.name')}}</title>
+        <!-- CSRF Token -->
+        <meta id="csrf-token" name="csrf-token" content="{{ csrf_token() }}">
+        <title id="tl">{{config('app.name')}}</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -80,7 +81,13 @@
 
             <div class="content">
                 <h1>{{config('app.name')}} <b id="b"></b></h1>
+                <h1>Ingresa un número</h1>
+                <input id="num2" type="number" name="val">
+                <h1>El total es: <b id="total"></b></h1>
+                
                 <h2 id="h2"></h2>
+                <button id="btnGuardarSuma">Guardar +</button>
+                <h6 id="lblMsn"></h6>
             </div>
         </div>
         <script type="text/javascript">

@@ -3,5 +3,6 @@ http://localhost/laravel_offline/public/
 http://localhost/laravel_offline/public/js/offline.js
 http://localhost/laravel_offline/public/js/logica.js
 
+#Recursos que deben estar online
 NETWORK:
-http://localhost/laravel_offline/public/recurso
+#http://localhost/laravel_offline/public/recurso
