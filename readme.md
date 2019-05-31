@@ -19,15 +19,18 @@ Existen dos archivos ubicados también en la carpeta [public/js](https://github.
 
 La tecnologia de acceso offline es completamente manejada por el cliente por lo que no es completamente necesario instalar Laravel, ya que puede ser usado con cualquier otro framework o lenguaje de servidor,e ste proyecto es netamente una prueba y no tiene fin alguno.   
 ## Como poner en marcha
-#Paso 1. Dar permisos a carpetas storage y storage logs
+##Paso 1. Dar permisos a carpetas storage y storage logs
 	sudo chmod 777 -R storage
 	cd storage 
 	sudo chmod 777 -R logs
-#Paso 2. Instalar paquetes.
+##Paso 2. Instalar paquetes.
 	composer install
-#Paso 3. Crear archivo .env
-#Paso 4. Crear key para la aplicación
+##Paso 3. Crear archivo .env
+##Paso 4. Crear key para la aplicación
 	php artisan key:generate
+##Paso 5. Correr migración
+    php artisan migrate
+
 
 
 
