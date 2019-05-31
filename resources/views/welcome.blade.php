@@ -80,6 +80,7 @@
             @endif
 
             <div class="content">
+                <h6>Visita el repositorio<a href="https://github.com/chaquen/LaravelOffline"> Github</a></h6>
                 <h1>{{config('app.name')}} <b id="b"></b></h1>
                 <h1>Ingresa un número</h1>
                 <input id="num2" type="number" name="val">
@@ -89,8 +90,9 @@
                 <button id="btnGuardarSuma">Guardar +</button>
                 <h6 id="lblMsn"></h6>
             </div>
-            <h6>Visita el repositorio<a href="https://github.com/chaquen/LaravelOffline">Github</a></h6>
+
         </div>
+
         <script type="text/javascript">
             var url="{{config('app.url')}}";
         </script>
