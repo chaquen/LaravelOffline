@@ -89,6 +89,7 @@
                 <button id="btnGuardarSuma">Guardar +</button>
                 <h6 id="lblMsn"></h6>
             </div>
+            <h6>Visita el repositorio<a href="https://github.com/chaquen/LaravelOffline">Github</a></h6>
         </div>
         <script type="text/javascript">
             var url="{{config('app.url')}}";
